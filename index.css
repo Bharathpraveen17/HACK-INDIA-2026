@@ -479,3 +479,44 @@ transition:0.3s;
 background:#f4870b;
 padding-left:40px;
 }
+
+/* Floating Button Container */
+
+.floating-container{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+/* + Button */
+
+.add-btn{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    border:none;
+    background:#000;
+    color:white;
+    font-size:35px;
+    cursor:pointer;
+}
+
+/* Buttons that appear */
+
+.add-buttons{
+    display:none;
+    flex-direction:column;
+    margin-bottom:10px;
+}
+
+/* Action Buttons */
+
+.action-btn{
+    margin:5px 0;
+    padding:10px 15px;
+    border:none;
+    background:#444;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
