@@ -127,3 +127,13 @@ sidebar.classList.remove("active");
 }
 
 });
+
+function toggleButtons(){
+    const buttons = document.getElementById("addButtons");
+
+    if(buttons.style.display === "flex"){
+        buttons.style.display = "none";
+    } else {
+        buttons.style.display = "flex";
+    }
+}
