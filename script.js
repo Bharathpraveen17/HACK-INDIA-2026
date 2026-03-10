@@ -137,3 +137,15 @@ function toggleButtons(){
         buttons.style.display = "flex";
     }
 }
+
+function toggleFab(){
+
+const menu = document.getElementById("fabOptions");
+
+if(menu.style.display === "flex"){
+menu.style.display = "none";
+}else{
+menu.style.display = "flex";
+}
+
+}
